@@ -2,6 +2,40 @@
 
 [Teachers' Project Briefs](https://docs.google.com/a/devbootcamp.com/document/d/1Kmw125hcNvyA_v4e35__TADi5NP88ELdhVfzPSlyAIc/edit?usp=sharing)
 
+###  Stock Portfolio Manager
+
+Tina the Trader is a celebrated 32 year old stock trader on Wall Street. She is well known in the industry as being a visionary in her trading decisions as she has generated billions of dollars in trading revenue for the companies she’s worked for, and tens of millions of dollars for her own personal portfolio. She is also notorious for being impossibly impatient and incredibly demanding. She is **_sick and tired_** of the current software she uses to manage her stock positions and would like to build her own platform. Through a huge stroke of luck, she has chosen YOU to build out this vision as per her high expectations. She is ready to pay you a __TON__ of cash for this project as long as the platform meets all of her criteria.
+
+At a high level, this application should serve as a visual dashboard that displays all of Tina’s current stock trading positions using the most up to date stock prices. Also, it should track her total Profit and Loss (P&L) on all her positions.
+
+__Core Goals:__
++ Has user authentication with password stored securely (bcrypt)
++ Displays all current stock positions in a Portfolio
++ Displays Current Value, Cost Basis and Total P&L for each Position
++ Displays Current Value, Cost Basis and Total P&L for total Portfolio
++ Connects with an API to retrieve most up-to-date stock pricing
+
+
+__Stretch Goals:__
++ Trading: Users can add new stock positions at the most up to date price
++ Track selling: Users can track realized gains/losses (stock that they have actually sold)
++ Graphs and UI: Users can view current value of their portfolio divided up by sector in a chart
++ Graphs and UI: Users can view historical performance of positions and/or total portfolio in a chart
++ Analytics: Users can view amounts for unrealized gains/losses per stock or group of stocks
++ Analytics: Users can utilize various [prediction algorithms](https://blog.quantopian.com/common-types-of-trading-algorithms/) to determine if they should buy/sell/hold a specific stock
++ Analytics: Users can track the accuracy of the prediction algorithms they have utilized in the past (e.g. if algorithm X said to buy stock ABC on January 2, and now it’s February 2, did the algorithm succeed at predicting future performance?)
++ API integration: Users can view the recommendations of reputed ratings firms for a specific stock (e.g. Morningstar)
+
+__Stock Trading Basics__
++ A Stock Portfolio consists of multiple Trading Positions
++ Each Trading Position will have the # of Shares, the Buy Price and the Current Price
++ The Current Value of a Trading Position is: # of Shares x Current Price
++ The Cost Basis of a Trading Position is: # of Shares x Buy Price
++ The Total P&L is: Current Value - Cost Basis
++ [Example online portfolio implementation](https://www.google.com/finance/portfolio)
+
+---
+
 ### Learning Competencies
 
 - Interfacing with clients to determine the specification for building an application, in the form of user stories.
