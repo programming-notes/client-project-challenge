@@ -41,6 +41,7 @@ Nick | Tony | John
 Jefferson | Raji
 
 Kevin | Kane
+
 ---
 
 ### Learning Competencies
