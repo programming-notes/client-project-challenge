@@ -34,6 +34,13 @@ __Stock Trading Basics__
 + The Total P&L is: Current Value - Cost Basis
 + [Example online portfolio implementation](https://www.google.com/finance/portfolio)
 
+__Groups__
+
+Nick | Tony | John
+
+Jefferson | Raji
+
+Kevin | Kane
 ---
 
 ### Learning Competencies
